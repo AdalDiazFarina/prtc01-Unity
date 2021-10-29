@@ -70,11 +70,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Al declarar el campo de speed como público podemos modificarlo a través del inspector
 
-![img](img/campo_velocidad.png)
+![img](img/campo_velocidad.PNG)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**c. Estar a la escucha de si el usuario ha utilizado los ejes virtuales. Elegir cuáles se van a utilizar: flechas, awsd.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Al utilizar getAxis te detecta tanto awsd como las flechas como entras de teclado para el movimiento del personaje.
+&nbsp;&nbsp;&nbsp;&nbsp;Al utilizar GetAxis te detecta tanto awsd como las flechas como entras de teclado para el movimiento del personaje.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**d. Elegir otros ejes virtuales para el giro y girar el jugador sobre el eje OY (up).**
