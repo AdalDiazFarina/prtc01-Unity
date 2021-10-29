@@ -83,7 +83,27 @@
 
 ![gif](gif/2_d.gif)
 
+&nbsp;&nbsp;&nbsp;&nbsp;**3 Sobre la escena que has trabajado programa los scripts necesarios para las siguientes acciones:**
 
+&nbsp;&nbsp;&nbsp;&nbsp;**a. Se deben incluir varios cilindros sobre la escena. Cada vez que el objeto jugador colisione con alguno de ellos, deben aumentar su tamaño y el jugador aumentar su puntuación.**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Este método detecta cuando nuestro personaje colisiona y va mostrando su puntuación
+
+![img](img/collision_character.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;Este método comprueba si le colisionan y si es el personaje quien lo hace. Si es así, aumenta su tamaño.
+
+![img](img/collision_default_cylinder.png)
+
+![gif](gif/3_a.gif)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Agregar cilindros de tipo A, en los que además, si el jugador pulsa la barra espaciadora lo mueve hacia duera de él**
+
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Se deben incluir cilindros que se alejen del jugador cuando esté próximo**
+
+&nbsp;&nbsp;&nbsp;&nbsp;**d. Ubicar un tercer objeto que sea capaz de detectar colisiones y que se mueva con las teclas I, L, J, M**
+
+&nbsp;&nbsp;&nbsp;&nbsp;**e. Debes ubicar cubos que aumentan de tamaño cuando se acerca una esfera y que disminuye cuando se acerca el jugador**
 
 
 
