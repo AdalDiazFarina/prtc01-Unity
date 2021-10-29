@@ -17,7 +17,7 @@
 
   ![gif](gif/1_b.gif)
 
-  **c. La esfera y el cubo tienen físicas.**
+&nbsp;&nbsp;&nbsp;&nbsp;**c. La esfera y el cubo tienen físicas.**
 
 &nbsp;&nbsp;&nbsp;&nbsp;En esto otro ejemplo ya los dos elementos tienen sus rigidbody por lo que se ven afectado por las físicas y tiende a caer.
 
@@ -56,6 +56,32 @@
 &nbsp;&nbsp;&nbsp;&nbsp;En este gif podemos ver como no podemos mover los ejes xz solo y.
 
   ![gif](gif/1_g_block.gif)
+
+**2 Sobre la escena que has trabajado ubica un cubo que represente un personaje que vas a mover. Se debe implementar un script que haga de CharacterController.**
+**Cuando el jugador pulse las teclas de flecha (o aswd) el jugador se moverá en la dirección que estos ejes indican.**
+
+&nbsp;&nbsp;&nbsp;&nbsp;**a. Crear un script para el personaje que lo desplace por la pantalla, sin aplicar simulación física.**
+
+![img](img/CharacterController.png)
+
+![gif](gif/2_a.gif)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Agregar un campo público que permita graduar la velocidad de movimiento desde el inspector de objetos.**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Al declarar el campo de speed como público podemos modificarlo a través del inspector
+
+![img](img/campo_velocidad.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Estar a la escucha de si el usuario ha utilizado los ejes virtuales. Elegir cuáles se van a utilizar: flechas, awsd.**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Al utilizar getAxis te detecta tanto awsd como las flechas como entras de teclado para el movimiento del personaje.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;**d. Elegir otros ejes virtuales para el giro y girar el jugador sobre el eje OY (up).**
+
+![img](img/rotacionCharacterController.png)
+
+![gif](gif/2_d.gif)
 
 
 
